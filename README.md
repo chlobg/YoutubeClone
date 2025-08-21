@@ -1,12 +1,26 @@
-# React + Vite
+# YouTube Clone — React + RapidAPI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic, responsive, and functional YouTube-style app built with **React.js**, **Tailwind CSS**, and **RapidAPI** (YouTube Data API via RapidAPI).  
+It includes real-time video playback, search, suggestions, and a clean mobile-first UI.
 
-Currently, two official plugins are available:
+> Tutorial reference: [YouTube — Build a YouTube Clone](https://www.youtube.com/watch?v=Ryh6BYeMIDQ)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Real-time video streaming (ReactPlayer)
+- Video **search** (query & pagination)
+- Contextual **video suggestions**
+- **Responsive UI** with Tailwind CSS
+- Simple global state with React Context
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+- **Frontend:** React 18, Vite, React Router
+- **UI:** Tailwind CSS, React Icons
+- **Media:** react-player
+- **API Platform:** RapidAPI (YouTube endpoints)
+- **Utils (optional):** dayjs/moment, js-abbreviation-number
+
+---
